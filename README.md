@@ -2,12 +2,12 @@
 macOS BigSur;  
 IntelliJ IDEA;  
 Google Chrome Version 99.0.4844.51 (Official Build) (x86_64);  
-ChromeDriver 90.0.4430.24;  
+ChromeDriver 99.0.4844.51;  
 # How to start code
  1.Download WebDriver ChromeDriver, this driver for users who use Chrome browser.   
  If you use another browser move to ----> https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/.   
- 2.Create folder Driver on your computer, and put driver into the folder. 
- For Windows:  
+ 2.Create folder Driver on your computer, and put driver into the folder.   
+ For Windows:    
  Example: "C:\Driver\Chromedriver.exe".   
  For macOS:       
  Example:"/Users/air/Documents/Driver/chrome-driver".   
