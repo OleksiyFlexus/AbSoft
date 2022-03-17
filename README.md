@@ -8,8 +8,8 @@ ChromeDriver 90.0.4430.24;
  If you use another browser move to ----> https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/.   
  2.Create folder Driver on your computer, and put driver into the folder. 
  For Windows:  
- Example: "C:\Driver\Chromedriver.exe". 
- For macOS:     
+ Example: "C:\Driver\Chromedriver.exe".   
+ For macOS:       
  Example:"/Users/air/Documents/Driver/chrome-driver".   
  3.Start IDE, open folder src\test\MainTest class.      
  find element "System.setProperty("webdriver.chrome.driver","/Users/air/Documents/Driver/chrome-driver");    
