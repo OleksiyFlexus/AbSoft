@@ -70,10 +70,9 @@ public class MainTest {
 
             LOGGER.info("11. Click to 'Filter by name' button");
             computerDatabasePage.filterByNameButtonClick();
-            computerDatabasePage.displayAlertMessage();
 
             LOGGER.info("12. Show computers found by filter");
-            Assert.assertEquals("Computer Found", computerDatabasePage.checkComputerFounded(), computerDatabasePage.displayAlertMessage());
+            Assert.assertEquals("Computer Found", "MacAir", computerDatabasePage.checkComputerFounded());
     }
 
     @After

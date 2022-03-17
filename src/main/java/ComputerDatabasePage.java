@@ -20,9 +20,6 @@ public class ComputerDatabasePage {
     @FindBy(xpath = "//*[@id='searchbox']")
     private WebElement searchBox;
 
-    @FindBy(xpath = "//*[@class='well']")
-    private WebElement displayAlertMessage;
-
     @FindBy(xpath = "//*[@class='computers zebra-striped']//td/a[text()='MacAir']")
     private WebElement checkComputerFounded;
 
@@ -51,10 +48,6 @@ public class ComputerDatabasePage {
     public ComputerDatabasePage filterByNameButtonClick() {
         filterByNameButton.click();
         return this;
-    }
-
-    public String displayAlertMessage() {
-        return displayAlertMessage.getText();
     }
 
     public String checkComputerFounded() {
